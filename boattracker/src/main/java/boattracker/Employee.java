@@ -26,7 +26,6 @@ public class Employee {
     
     public void addBoat(Boat boat){
         this.boats.add(boat);
-        boat.addUser(this);
     }
     
 }
