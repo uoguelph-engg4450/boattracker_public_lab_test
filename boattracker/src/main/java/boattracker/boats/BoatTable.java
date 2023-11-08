@@ -1,5 +1,6 @@
 package boattracker;
 
+import boattracker.internal.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
