@@ -4,9 +4,9 @@ import java.util.ArrayList;
 public class Boat {
     private String modelNumber;
     private String boatColor;
-    private double boatPri
+    private double boatPrice = 0.0;
+    private ArrayList<Employee> users = new ArrayList<Employee>();
 
-     
     public Boat(String modelNumber){
         this.modelNumber = modelNumber;
     }
@@ -16,9 +16,9 @@ public class Boat {
     }
  
     public double getBoatPrice() {
-     
+        return boatPrice;
+    }
 
-     
     public void addUser(Employee employee){
 	this.users.add(employee);
     }
