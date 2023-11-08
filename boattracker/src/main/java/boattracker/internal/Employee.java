@@ -1,5 +1,7 @@
 package boattracker;
 
+import boattracker.boats.*;
+
 public class Employee {
     private int empId;
     private String department;
