@@ -1,5 +1,6 @@
 package boattracker;
 import java.util.ArrayList;
+import boattracker.internal.*;
 
 public class Boat {
     private String modelNumber;
